@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#order{
+    background-image: url('./images//pattern-background-desktop.svg');
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    height: 100vh;
+}
+.all{
+    border-radius: 10px;
+    background-color: white; 
+    width: 400px; 
+    height: 530px;
+}
+.first-svg img {
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.all-info{
+    display: flex;
+    align-items: center;
+    /* justify-content:space-around; */
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.text{
+    text-align: center;
+    text-transform: capitalize;
+    width: 300px;
+}
+.music{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.music-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: capitalize;
+    margin-left: 5px;
+    font-size: 10px;
+}
+.music-change{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 300px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.change{
+    text-transform: capitalize;
+    font-size: 12px;
+}
+.proceed{
+    background-color:hsl(245, 75%, 52%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+    height: 47px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 20px 10px -15px rgb(82, 82, 114);
+}
+.pro{
+    text-decoration: none;
+    color: white; 
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+.can{
+    color:  hsl(224, 23%, 55%);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+
+
+}
+.order{
+    color:hsl(223, 47%, 23%) ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.p1{
+    color: hsl(224, 23%, 55%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.p2{
+    color:hsl(224, 23%, 55%);
+    margin-top: 2px;
+}
+.anu{
+    color:hsl(223, 47%, 23%);
+}
+.second-svg img{
+    width: 30px;
+}
+.last{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
